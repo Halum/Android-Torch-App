@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDDDD"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#BBBBBB"
+	    android:layout_marginBottom="10dp"
+	    android:orientation="horizontal" >
+	    
+        	<ImageView
+		        android:id="@+id/titleIcon"
+		        android:layout_width="48dp"
+		        android:layout_height="48dp"
+		        android:src="@drawable/ic_launcher" />
+		
+		    <TextView
+		        android:id="@+id/titleText"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="50dp"
+		        android:text="Torch"
+		        android:textSize="25sp"
+		        android:textStyle="bold" />
+		    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:orientation="horizontal" >
+		    
+        <TextView
+		        android:id="@+id/aboutLabel"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="About : "
+		        android:textStyle="italic|bold"
+		        android:textSize="18sp" />
+        
+        <TextView
+		        android:id="@+id/aboutText"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="This is a torch application with little extra features."
+		        android:textStyle="italic"
+		        android:textSize="18sp" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:orientation="horizontal" >
+		    
+        <TextView
+		        android:id="@+id/authorLabel"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Author : "
+		        android:textStyle="italic|bold"
+		        android:textSize="18sp" />
+        
+        <TextView
+		        android:id="@+id/authorName"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Sajjad Hossain"
+		        android:textStyle="italic"
+		        android:textSize="18sp" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:orientation="horizontal" >
+	    
+        	<ImageView
+		        android:id="@+id/facebookIcon"
+		        android:layout_width="32dp"
+		        android:layout_height="32dp"
+		        android:src="@drawable/ic_facebook" />
+		
+		    <TextView
+		        android:id="@+id/facebookText"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:text="http://www.facebook.com/sajjad.bappi"
+		        android:textSize="14sp"
+		        android:textStyle="italic" />
+		    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginLeft="10dp"
+		android:layout_marginBottom="10dp"
+	    android:orientation="horizontal" >
+	    
+        	<ImageView
+		        android:id="@+id/emailIcon"
+		        android:layout_width="32dp"
+		        android:layout_height="32dp"
+		        android:src="@drawable/ic_email" />
+		
+		    <TextView
+		        android:id="@+id/emailText"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:text="my.lost.word@gmail.com"
+		        android:textSize="14sp"
+		        android:textStyle="italic" />
+		    
+    </LinearLayout>
+
+</LinearLayout>
